@@ -1,24 +1,20 @@
-RshinyWeek4
+#Developing Data Products - Final Project 
 
- This is the user-interface definition of a Shiny web application. You can
- run the application by clicking 'Run App' above.
+##Introduction
+Here is an application in shiny, it contains a... "Here is description"" 
 
+##Where to find this app or how to run it
 
- This is the server logic of a Shiny web application. You can run the 
- application by clicking 'Run App' above.
-
-
-You can run this demo with:
-```
-if (!require(devtools))
-  install.packages("devtools")
-devtools::install_github("rstudio/leaflet")
-shiny::runGitHub("rstudio/shiny-examples", subdir="063-superzip-example")
-```
+You can run this app localy with:
 
 ```
-if (!require(devtools))
-  install.packages("devtools")
-devtools::install_github("rstudio/leaflet")
 shiny::runGitHub("ronaldraxon/RshinyWeek4")
 ```
+
+The ui.R file  is the user-interface definition of a Shiny web application. If you
+download the project and open the file in RStudio, you can run the application by 
+clicking 'Run App' above. The server.R file  is the server logic of a Shiny web application. 
+You can run the  application by clicking 'Run App' above as well.
+
+
+
