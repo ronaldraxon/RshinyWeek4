@@ -15,7 +15,7 @@ shinyServer(function(input, output) {
     z[is.na(z)] <- 1
     op <- par(bg = "white")
     persp(x, y, z, theta = input$theta, phi = input$phi, 
-          expand = 0.8,ltheta = input$sliderShade, shade = 0.75, col = "lightblue")
+          expand = 0.8,ltheta = input$sliderLtheta, shade = input$sliderShade, col = "lightblue")
     
   })
   
