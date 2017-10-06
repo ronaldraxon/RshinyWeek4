@@ -15,7 +15,7 @@ shinyUI(
         sliderInput("sliderX","Min and max X:",min = -100,max = 100,value = c(-25,25)),
         sliderInput("sliderY","Min and max Y",min = -100,max = 100,value = c(-25,25)),
         sliderInput("sliderLtheta","Ltheta",min = -180,max = 180,value = -120),
-        sliderInput("sliderShade","Shade",min = 0,max = 3,value = 0.75,step=0.1)
+        sliderInput("sliderShade","Shade",min = 0,max = 3,value = 0.75,step=0.1),
         checkboxInput("show_xlab","show or hide x label", value=TRUE),
         checkboxInput("show_ylab","show or hide y label", value=TRUE),
         checkboxInput("show_main","show or hide main", value=TRUE),
