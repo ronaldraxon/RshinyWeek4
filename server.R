@@ -15,7 +15,4 @@ shinyServer(function(input, output) {
           expand = 0.8,ltheta = input$sliderLtheta, 
           shade = input$sliderShade, col = input$Color)
   })
-  
-  
-  output$text1 = renderText(input$bins)
 })
