@@ -1,18 +1,16 @@
-RshinyWeek4
+#Developing Data Products - Final Project 
 
- This is the user-interface definition of a Shiny web application. You can
- run the application by clicking 'Run App' above.
+##Introduction
+Here is an application in shiny, it contains a 3d plot made with the persp funtion. The mathematical function used to create this plot was 10*sin(sqrt(x^2+y^2))/sqrt(x^2+y^2). In order to change the features such as number of polygons rendered, x and y values among others. This kind of graphic can be useful for surface analysis or hyperplane of solutions analysis 
 
+##Where to find this app or how to run it
 
- This is the server logic of a Shiny web application. You can run the 
- application by clicking 'Run App' above.
+You can run this app by entering the url:
 
+https://raxondatascientist.shinyapps.io/RshinyWeek4/
 
-You can run this demo with:
+Or you can run it localy by typing the next line
 ```
-if (!require(devtools))
-  install.packages("devtools")
-devtools::install_github("rstudio/leaflet")
-shiny::runGitHub("ronaldraxon/RshinyWeek4", subdir="063-superzip-example")
+shiny::runGitHub("ronaldraxon/RshinyWeek4")
 ```
 
