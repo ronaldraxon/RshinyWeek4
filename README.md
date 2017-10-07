@@ -9,7 +9,9 @@ You can run this app by entering the url:
 
 https://raxondatascientist.shinyapps.io/RshinyWeek4/
 
-Or you can run it localy by typing the next line
+Or you can run it localy by typing the next lines.
+Be sure to install an updated version Rstudio and 
+shiny package as well.
 ```
 shiny::runGitHub("ronaldraxon/RshinyWeek4")
 ```
