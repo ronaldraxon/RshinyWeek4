@@ -5,8 +5,8 @@ account: raxondatascientist
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 222816
-bundleId: 1015049
+bundleId: 1015074
 url: https://raxondatascientist.shinyapps.io/RshinyWeek4/
-when: 1507343484.86947
+when: 1507346467.64708
 asMultiple: FALSE
 asStatic: FALSE

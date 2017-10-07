@@ -77,6 +77,11 @@ shinyUI(
                 sliderInput("sliderShade","Shade",
                             min = 0,max = 3,value = 0.75,step=0.1)
           )      
+        ),
+        tags$div(class = "header", checked = NA,
+                 tags$p("The source code can be found in the repository by clicking on the following link:", 
+                      tags$a(href = "https://github.com/ronaldraxon/RshinyWeek4", "Project repository")
+                 )
         )
       ),
       
