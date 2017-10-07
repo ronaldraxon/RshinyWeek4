@@ -1,0 +1,12 @@
+name: RshinyWeek4
+title: RshinyWeek4
+username:
+account: raxondatascientist
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 222816
+bundleId: 1015049
+url: https://raxondatascientist.shinyapps.io/RshinyWeek4/
+when: 1507343484.86947
+asMultiple: FALSE
+asStatic: FALSE
