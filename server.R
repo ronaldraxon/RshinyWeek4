@@ -6,7 +6,7 @@ shinyServer(function(input, output) {
   
   output$plot <- renderPlot({
     x <- seq(input$sliderX[1],input$sliderX[2], length= input$sliderLenght)
-    y <- seq(input$sliderY[1],input$sliderY[2], length= 30)
+    y <- seq(input$sliderY[1],input$sliderY[2], length= input$sliderLenght)
     f <- function(x, y) { r <- sqrt(x^2+y^2); 10 * sin(r)/r }
     z <- outer(x, y, f)
     z[is.na(z)] <- 1

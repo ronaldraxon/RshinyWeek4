@@ -14,7 +14,7 @@ shinyUI(
           tags$p("This is a shiny app to show a 3d plot made with the ",
                  tags$a(href = "https://stat.ethz.ch/R-manual/R-devel/library/graphics/html/persp.html", "persp"),
                   " funtion. The mathematical function used to create this plot was 10*sin(sqrt(x^2+y^2))/sqrt(x^2+y^2). ",
-                  "In order to change the features such as number of polygons rendered, x and y values among others. 
+                  "In order to change the features such as number of sequence length of polygons rendered, x and y values among others. 
                    This kind of graphic can be useful for surface analysis or hyperplane of solutions analysis.")
           )    
         ),
@@ -33,7 +33,8 @@ shinyUI(
             selectInput("Color", "Color:",
                         c("Light blue" = "lightblue",
                           "Red" = "red",
-                          "Green" = "green"))  
+                          "Green" = "green",
+                          "Orange" = "orange"))  
           )
         ),
         fluidRow(
